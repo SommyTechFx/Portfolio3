@@ -1,9 +1,13 @@
+import Intro from "./Components/Intro/Intro";
 import Navbar from "./Components/Navbar/Navbar";
+import Skill from "./Components/skills/Skill";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Navbar />
+      <Intro />
+      <Skill />
     </div>
   );
 }

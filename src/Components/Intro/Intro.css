@@ -1,0 +1,119 @@
+#intro {
+  height: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  font-family: "Libre Baskerville", serif;
+  cursor: pointer;
+}
+
+.bg {
+  position: absolute;
+  top: 2rem;
+  right: 0;
+  z-index: -1;
+  object-fit: cover;
+  width: 35rem;
+}
+.introcontent {
+  height: 100vh;
+  width: 100vw;
+  padding: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.introcontent .hello {
+  font-size: 1.7rem;
+  font-weight: 100;
+  font-family: "Libre Baskerville", serif;
+}
+.introname {
+  /* color: rgb(255, 94, 0); */
+  background: linear-gradient(270deg, #fff 10%, rgb(255, 94, 0) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.intropara {
+  font-size: small;
+  font-weight: 300;
+  letter-spacing: 1px;
+  max-width: 50rem;
+  color: rgb(236, 236, 236);
+}
+
+.btn {
+  background: white;
+  margin: 1rem 0;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 2rem;
+  font-weight: 800;
+  transition: 0.5s;
+}
+.btn:hover {
+  background: rgb(255, 94, 0);
+  color: white;
+  transform: scale(1.05);
+}
+.btn:active {
+  border: 1px solid rgb(255, 94, 0);
+}
+.btn img {
+  object-fit: cover;
+  margin: 0 0.25rem;
+  height: 1rem;
+}
+.resume {
+  background: linear-gradient(270deg, #fff 10%, rgb(255, 94, 0) 100%);
+  margin: 1rem;
+}
+.resume:hover {
+  color: black;
+  background: #fff;
+}
+.resume:active {
+  background: rgb(255, 94, 0);
+}
+/*----------- media query.....*/
+@media screen and (max-width: 840px) {
+  .bg {
+    right: 1vw;
+    width: 30rem;
+  }
+  .introtext {
+    font-size: 2rem;
+  }
+  .intropara {
+    font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .bg {
+    right: -20vw;
+    width: 20rem;
+  }
+  .introtext {
+    font-size: 1.5rem;
+  }
+  .intropara {
+    font-size: 0.3rem;
+  }
+}
+@media screen and (max-width: 390px) {
+  .bg {
+    right: -20vw;
+    width: 20rem;
+  }
+  .introtext {
+    font-size: 1.2rem;
+  }
+  .intropara {
+    font-size: 0.3rem;
+  }
+}
