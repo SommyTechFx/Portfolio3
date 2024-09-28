@@ -4,7 +4,7 @@ import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 
 const MyWork = () => {
   return (
-    <div className="mywork">
+    <div id="work" className="mywork">
       <div className="mywork-title">
         <h1 className="logo">My Latest Work</h1>
         <hr style={{ width: "100%" }} />

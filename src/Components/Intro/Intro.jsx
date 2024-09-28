@@ -23,10 +23,13 @@ const Intro = () => {
         </p>
         <Link>
           <div>
-            <button className="btn">
-              <img src={btnimg} alt="" />
-              Hire me
-            </button>
+            <Link to={"contact"} smooth={true} offset={50} duration={1000}>
+              <button className="btn">
+                <img src={btnimg} alt="" />
+                Hire me
+              </button>
+            </Link>
+
             <button className="btn resume">Resume</button>
           </div>
         </Link>

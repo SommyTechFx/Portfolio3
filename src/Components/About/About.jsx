@@ -3,7 +3,7 @@ import aboutmepic from "./../../assets/aboutmepic.jpg";
 
 const About = () => {
   return (
-    <section className="about">
+    <section id="about" className="about">
       <div className="about-title">
         <h1 className="logo aboutme">About Me</h1>
         <hr style={{ width: "100%" }} />

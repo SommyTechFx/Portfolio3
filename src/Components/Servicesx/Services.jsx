@@ -4,7 +4,7 @@ import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 
 const Services = () => {
   return (
-    <section className="services">
+    <section id="services" className="services">
       <div className="services-title">
         <h1 className="logo">My Services</h1>
         <hr style={{ width: "100%" }} />

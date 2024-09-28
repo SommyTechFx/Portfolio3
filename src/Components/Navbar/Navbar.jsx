@@ -1,3 +1,4 @@
+// import { useState } from "react";
 import "./navbar.css";
 // import logo from "./../../assets/logo.png";
 // import contact from "./../../assets/contact.png";
@@ -5,19 +6,63 @@ import "./navbar.css";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
+  // const [menu, setMenu] = useState("home");
+
   return (
     <nav className="navbar">
       <h3 className="logo">Hello.</h3>
       {/* <img src={logo} alt="" /> */}
       <div className="desktopMenu">
-        <Link className="desktopMenuListItem">Home</Link>
+        <Link
+          to={"intro"}
+          smooth={true}
+          offset={-50}
+          duration={1000}
+          className="desktopMenuListItem"
+        >
+          Home
+        </Link>
 
-        <Link className="desktopMenuListItem">About Me</Link>
-        <Link className="desktopMenuListItem">Services</Link>
-        <Link className="desktopMenuListItem">Portfolio</Link>
-        <Link className="desktopMenuListItem">Contact</Link>
+        <Link
+          to={"about"}
+          smooth={true}
+          offset={10}
+          duration={1000}
+          className="desktopMenuListItem"
+        >
+          About Me
+        </Link>
+        <Link
+          to={"services"}
+          smooth={true}
+          offset={20}
+          duration={1000}
+          className="desktopMenuListItem"
+        >
+          Services
+        </Link>
+        <Link
+          to={"work"}
+          smooth={true}
+          offset={20}
+          duration={1000}
+          className="desktopMenuListItem"
+        >
+          Portfolio
+        </Link>
+        <Link
+          to={"contact"}
+          smooth={true}
+          offset={50}
+          duration={1000}
+          className="desktopMenuListItem"
+        >
+          Contact
+        </Link>
       </div>
-      <button className="desktopMenuBtn">Connect With Me</button>
+      <Link to={"contact"} smooth={true} offset={50} duration={1000}>
+        <button className="desktopMenuBtn">Connect</button>
+      </Link>
     </nav>
   );
 };

@@ -1,0 +1,26 @@
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+.footer {
+  padding: 0 2rem;
+}
+.footer-right {
+  display: flex;
+  gap: 2rem;
+}
+.footer-left p {
+  font-size: 1rem;
+  color: #999;
+  font-family: "Libre Baskerville", serif;
+}
+.footer-right p {
+  font-size: 1rem;
+  color: #999;
+  font-family: "Libre Baskerville", serif;
+}
+.footer-line {
+  border: 1px solid #999;
+}
