@@ -1,0 +1,46 @@
+.mywork {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  margin: 8rem 10rem;
+}
+.mywork-title {
+  padding: 0 20rem;
+  font-weight: 600;
+}
+.mywork-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  padding: 0 6rem;
+}
+.mywork-container img:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+  border: 0.15rem solid rgb(255, 94, 0);
+  border-radius: 1rem;
+}
+.mywork-container img {
+  width: 22rem;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.mywork-showmore {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem;
+  border-radius: 5rem;
+  border: 1px solid #fff;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 8rem;
+  transition: 0.6s;
+  cursor: pointer;
+}
+.mywork-showmore:hover {
+  gap: 2rem;
+  transition: 0.6s;
+}
