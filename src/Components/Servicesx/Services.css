@@ -30,7 +30,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
   padding: 1rem;
 }
 .services-format h3 {
@@ -70,4 +70,20 @@
 }
 .arrow-img {
   font-size: 1.4rem;
+}
+@media (max-width: 830px) {
+  .service-container {
+    grid-template-columns: 2fr 2fr;
+    gap: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .service-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .services-title .logo {
+    font-size: 2rem;
+    padding: 0;
+  }
 }

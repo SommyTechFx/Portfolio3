@@ -6,7 +6,7 @@ const MyWork = () => {
   return (
     <div id="work" className="mywork">
       <div className="mywork-title">
-        <h1 className="logo">My Latest Work</h1>
+        <h1 className="logo">My Work</h1>
         <hr style={{ width: "100%" }} />
       </div>
       <div className="mywork-container">

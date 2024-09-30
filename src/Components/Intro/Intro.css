@@ -1,8 +1,8 @@
 #intro {
-  height: calc(100vh - 4rem);
+  /* height: calc(100vh - 4rem); */
   width: 100vw;
   max-width: 75rem;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   overflow: hidden;
   position: relative;
   font-family: "Libre Baskerville", serif;
@@ -83,7 +83,7 @@
 /*----------- media query.....*/
 @media screen and (max-width: 840px) {
   .bg {
-    right: 1vw;
+    right: 10vw;
     width: 30rem;
   }
   .introtext {
@@ -91,11 +91,25 @@
   }
   .intropara {
     font-size: 0.6rem;
+    max-width: 30rem;
+  }
+  .btn {
+    padding: 0.6rem 1rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .bg {
-    right: -20vw;
+    right: 5vw;
+    width: 25rem;
+  }
+  .introtext {
+    font-size: 1.5rem;
+    margin-top: 5rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  .bg {
+    right: -10vw;
     width: 20rem;
   }
   .introtext {
@@ -107,13 +121,30 @@
 }
 @media screen and (max-width: 390px) {
   .bg {
-    right: -20vw;
-    width: 20rem;
+    top: 5rem;
+    right: 1vw;
+    width: 18rem;
+  }
+  .introcontent {
+    height: 70vh;
   }
   .introtext {
     font-size: 1.2rem;
   }
   .intropara {
     font-size: 0.3rem;
+  }
+  .btn {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.7rem;
+
+    align-items: center;
+    justify-content: center;
+  }
+  .hire-icon {
+    width: 0.5rem;
+    align-items: center;
+  }
+  .intro {
   }
 }

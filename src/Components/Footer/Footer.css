@@ -24,3 +24,11 @@
 .footer-line {
   border: 1px solid #999;
 }
+@media (max-width: 830px) {
+  .footer-left p {
+    font-size: 0.6rem;
+  }
+  .footer-right p {
+    font-size: 0.6rem;
+  }
+}

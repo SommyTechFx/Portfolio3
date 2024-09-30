@@ -6,8 +6,6 @@ const Intro = () => {
   return (
     <section id="intro">
       <div className="introcontent">
-        <div></div>
-
         <span className="introtext">
           1&#39;m <span className="introname">Chisom </span>
           <br />
@@ -25,7 +23,7 @@ const Intro = () => {
           <div>
             <Link to={"contact"} smooth={true} offset={50} duration={1000}>
               <button className="btn">
-                <img src={btnimg} alt="" />
+                <img src={btnimg} alt="" className="hire-icon" />
                 Hire me
               </button>
             </Link>

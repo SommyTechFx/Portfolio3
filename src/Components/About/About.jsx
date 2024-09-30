@@ -42,21 +42,21 @@ const About = () => {
               <p>Next JS</p>
               <hr style={{ width: "40%" }} />
             </div>
-          </div>
-          <div className="achievement">
-            <div className="about-achievement">
-              <h1>2+</h1>
-              <p>YEARS OF EXPERIENCE</p>
-            </div>
-            <hr />
-            <div className="about-achievement">
-              <h1>20+</h1>
-              <p>PROJECTS COMPLETED</p>
-            </div>
-            <hr />
-            <div className="about-achievement">
-              <h1>15+</h1>
-              <p>HAPPY CLIENTS</p>
+            <div className="achievement">
+              <div className="about-achievement">
+                <h1>2+</h1>
+                <p>YEARS OF EXPERIENCE</p>
+              </div>
+              <hr />
+              <div className="about-achievement">
+                <h1>20+</h1>
+                <p>PROJECTS COMPLETED</p>
+              </div>
+              <hr />
+              <div className="about-achievement">
+                <h1>15+</h1>
+                <p>HAPPY CLIENTS</p>
+              </div>
             </div>
           </div>
         </div>
