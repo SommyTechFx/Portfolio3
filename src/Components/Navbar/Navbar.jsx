@@ -3,16 +3,22 @@ import "./navbar.css";
 
 import { Link } from "react-scroll";
 // import { HiOutlineXMark } from "react-icons/hi2";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
+  const [sticky, setSticky] = useState(false);
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      window.scrollY > 50 ? setSticky(true) : setSticky(false);
+    });
+  }, []);
+
   return (
-    <nav className="navbar">
+    <nav className={`navbar ${sticky ? "dark-nav" : ""}`}>
       <h3 className="logo">Hello.</h3>
 
       <div className="desktopMenu">
-        {/* <HiOutlineXMark className="nav-mob-close" /> */}
         <Link
           to={"intro"}
           smooth={true}

@@ -77,20 +77,29 @@
 .ListItem {
   display: none;
 }
+.dark-nav {
+  background-color: black;
+  border-bottom-left-radius: 10rem;
+  border-bottom-right-radius: 10rem;
+  padding: 0 4rem;
+  opacity: 0.7;
+  transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in;
+}
 @media (max-width: 830px) {
   .logo {
     font-size: 2.5rem;
   }
   .navbar {
-    margin: 0 0;
-    position: sticky;
+    /* margin: 0 0; */
+    position: fixed;
   }
   .desktopMenuBtn {
     display: none;
   }
   .nav-mob-open {
     display: flex;
-    position: absolute;
+    position: fixed;
     right: 2.5rem;
 
     font-size: 3rem;
@@ -155,5 +164,12 @@
     padding: 0.5rem 1rem;
     margin: 0.1rem;
     font-size: 0.9rem;
+  }
+  .dark-nav {
+    background-color: black;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    opacity: 0.7;
+    transition: 0.5s;
   }
 }
