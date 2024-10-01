@@ -13,6 +13,8 @@
 .aboutme {
   padding: 0 2rem;
   font-weight: 600;
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
 }
 .about-left {
   position: relative;

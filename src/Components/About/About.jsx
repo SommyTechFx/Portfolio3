@@ -1,5 +1,6 @@
 import "./About.css";
 import aboutmepic from "./../../assets/aboutmepic.jpg";
+import "animate.css";
 
 const About = () => {
   return (
