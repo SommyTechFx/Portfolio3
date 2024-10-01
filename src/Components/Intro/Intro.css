@@ -55,6 +55,7 @@
   border-radius: 2rem;
   font-weight: 800;
   transition: 0.5s;
+  color: black;
 }
 .btn:hover {
   background: rgb(255, 94, 0);
@@ -72,6 +73,7 @@
 .resume {
   background: linear-gradient(270deg, #fff 10%, rgb(255, 94, 0) 100%);
   margin: 1rem;
+  color: black;
 }
 .resume:hover {
   color: black;
@@ -111,6 +113,8 @@
   .bg {
     right: -10vw;
     width: 20rem;
+
+    object-fit: cover;
   }
   .introtext {
     font-size: 1.5rem;
@@ -126,13 +130,13 @@
     width: 18rem;
   }
   .introcontent {
-    height: 70vh;
+    height: 80vh;
   }
   .introtext {
     font-size: 1.2rem;
   }
   .intropara {
-    font-size: 0.3rem;
+    font-size: 0.4rem;
   }
   .btn {
     padding: 0.3rem 0.6rem;

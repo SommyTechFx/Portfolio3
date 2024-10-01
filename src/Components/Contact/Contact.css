@@ -137,8 +137,18 @@
   } */
   .contact-right input {
     width: 20rem;
+    height: 1rem;
   }
   .contact-right {
     padding: 0 3rem;
+  }
+  .contact-right label,
+  .contact-right textarea,
+  .contact-right ::placeholder {
+    font-size: 0.8rem;
+  }
+  .contact-right button {
+    font-size: 0.85rem;
+    padding: 0.3rem 0.4rem;
   }
 }

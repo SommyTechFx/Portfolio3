@@ -83,6 +83,7 @@
   }
   .navbar {
     margin: 0 0;
+    position: sticky;
   }
   .desktopMenuBtn {
     display: none;
