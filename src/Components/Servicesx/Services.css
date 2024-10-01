@@ -87,3 +87,28 @@
     padding: 0;
   }
 }
+@media (max-width: 400px) {
+  .services {
+    padding: 0 1.5rem;
+    align-items: start;
+    margin-bottom: 3rem;
+  }
+
+  .service-container {
+    padding: 0;
+  }
+  .services-format {
+    padding: 0.5rem 0.5rem;
+    gap: 0.3rem;
+  }
+  .services-format h3 {
+    font-size: 1.5rem;
+  }
+  .services-format h2 {
+    font-size: 1.5rem;
+  }
+  .services-format p {
+    font-size: 0.7rem;
+    max-width: 15rem;
+  }
+}

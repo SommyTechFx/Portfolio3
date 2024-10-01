@@ -105,6 +105,12 @@
     flex-wrap: wrap;
     gap: 2rem;
   }
+  .contact-left {
+    padding: 0 10rem;
+  }
+  .contact-right {
+    padding: 0 10rem;
+  }
 }
 @media (max-width: 420px) {
   .contact-title .logo {

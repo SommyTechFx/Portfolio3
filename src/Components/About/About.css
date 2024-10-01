@@ -164,3 +164,23 @@
     height: 20rem;
   }
 }
+@media (max-width: 400px) {
+  .about {
+    /* padding: 0;
+    margin: 0;
+    gap: 0; */
+    /* gap: 2rem; */
+    /* margin: 0rem 7rem; */
+    align-items: start;
+  }
+  .logo.aboutme {
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+  }
+  .about-title {
+    padding: 0;
+    margin: 0 1rem;
+    align-items: start;
+  }
+}
