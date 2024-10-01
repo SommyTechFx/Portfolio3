@@ -17,6 +17,7 @@
   object-fit: cover;
   width: 35rem;
 }
+
 .introcontent {
   height: 100vh;
   width: 100vw;
@@ -113,6 +114,7 @@
   .bg {
     right: -10vw;
     width: 20rem;
+    padding: 0.5rem;
 
     object-fit: cover;
   }
@@ -125,12 +127,13 @@
 }
 @media screen and (max-width: 390px) {
   .bg {
-    top: 5rem;
+    top: 10rem;
     right: 1vw;
     width: 18rem;
   }
   .introcontent {
-    height: 80vh;
+    height: 95vh;
+    padding: 1rem;
   }
   .introtext {
     font-size: 1.2rem;
@@ -152,6 +155,7 @@
   #intro {
     padding: 0;
     margin: 0;
-    height: 70vh;
+
+    height: 80vh;
   }
 }
