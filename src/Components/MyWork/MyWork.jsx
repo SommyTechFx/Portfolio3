@@ -11,7 +11,17 @@ const MyWork = () => {
       </div>
       <div className="mywork-container">
         {mywork_data.map((work, index) => {
-          return <img key={index} src={work.w_img} alt="" />;
+          return (
+            <a
+              key={index}
+              href={work.w_link} // Add the link to redirect
+              target="_blank" // Opens the link in a new tab
+              rel="noopener noreferrer" // Security feature for external links
+            >
+              <img src={work.w_img} alt={work.w_name} />{" "}
+              {/* Display the image */}
+            </a>
+          );
         })}
       </div>
       <div className="mywork-showmore">

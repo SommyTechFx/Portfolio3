@@ -2,7 +2,8 @@
   height: calc(100vh - 6rem);
   width: 100vw;
   max-width: 75rem;
-  /* margin: 0 auto; */
+  justify-content: center;
+  display: flex;
   overflow: hidden;
   position: relative;
   font-family: "Libre Baskerville", serif;

@@ -54,23 +54,58 @@
   max-width: 30rem;
   font-family: "Libre Baskerville", serif;
 }
-.services-format:hover {
-  border: 2px solid rgb(214, 82, 6);
-  background-image: linear-gradient(50deg, rgb(168, 66, 6), rgb(255, 126, 51));
-  opacity: 2;
-  transform: scale(1.05);
-  transition: 0.4s;
+.services-format {
+  width: 100%;
+  margin-bottom: 20px;
 }
+
+.services-title {
+  text-align: center;
+}
+
 .services-readmore {
   display: flex;
-  gap: 1rem;
-  margin-top: 1rem;
   align-items: center;
-  font-family: "Libre Baskerville", serif;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 10px;
+  font-size: 1.5rem;
 }
+
 .arrow-img {
-  font-size: 1.4rem;
+  margin-left: 5px;
+  transition: transform 0.3s ease;
 }
+
+.arrow-img.rotated {
+  transform: rotate(90deg);
+  color: rgb(255, 94, 0);
+}
+
+.service-desc {
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  transition: all 0.3s ease;
+}
+
+.service-desc.expanded {
+  width: fit-content;
+  height: 100%;
+  text-wrap: wrap;
+  overflow: visible;
+  white-space: wrap;
+  text-overflow: ellipsis;
+}
+
+.service-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 @media (max-width: 830px) {
   .service-container {
     grid-template-columns: 2fr 2fr;
